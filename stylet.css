@@ -1,0 +1,174 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.concolor{
+    color: greenyellow !important;
+}
+.textocolor{
+    color: azure !important;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.container-fluid{
+    position: relative;
+    display: inline-block;
+}
+.oscura{
+    filter: brightness(40%);
+}
+
+.container {
+    max-width: 100%;
+}
+
+.textarea_container {
+    margin: 20px 0;
+}
+
+form button[type='submit'] {
+    display: block;
+    margin: auto;
+}
+
+
+.box-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.ticket-box-container {
+    display: inline-block;
+}
+
+.ticket-box {
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    margin: 3px;
+    padding: 25px;
+    border: 1.5px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.student {
+    border-color: green;
+}
+
+.trainee {
+    border-color: #00adff;
+}
+
+.junior {
+    border-color: orange;
+}
+
+.clarification {
+    font-size: 14px;
+    color: gray;
+    margin: 0;
+}
+
+.form_container {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.tickets-title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.tickets-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.medimum {
+    width: 48%;
+}
+
+.medimum p {
+    margin: 0;
+}
+
+.form-control {
+    appearance: auto;
+}
+
+.tickets-inputs .form-control {
+    margin: 10px 0;
+}
+
+.medimum .form-control {
+    margin-top: 0;
+}
+
+select {
+    height: 38px;
+}
+
+.total-price-container {
+    height: 50px;
+    background: #bbe7bd;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    margin: 10px 0;
+}
+
+.total-price-container p {
+    font-size: 18px;
+    margin: 0;
+}
+
+#price {
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+}
+
+.discount {
+    font-weight: 100;
+    font-style: italic;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.form-buttons {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.ticket-btn {
+    width: 48%;
+    background-color: rgb(153, 228, 40);
+    border-color: greenyellow;
+    text-color: white;
+}
+
+#footer-menu{
+    height: 90px;
+    background-color: rgb(30, 29, 83);
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-anchor: middle;
+}

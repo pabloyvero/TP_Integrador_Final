@@ -1,0 +1,60 @@
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    .concolor {
+        color: greenyellow !important;
+    }
+
+    .textocolor {
+        color:azure !important;
+    }
+    
+    .container-fluid {
+        position: relative;
+        display: inline-block;
+    }
+
+    .oscura { 
+        filter: brightness(40%);
+    }
+
+    .titulo-dentro {
+        position: absolute;
+        text-align: right !important;
+        top: 22%; 
+        left: 1100px;
+        color: azure !important; 
+    }
+
+    .texto-derecha {
+        position: absolute;
+        text-align: justify !important;
+        top: 25%; 
+        left: 800px; 
+        color: azure !important; 
+    }
+
+    .btnorador {
+        position: absolute; 
+        top: 45%; 
+        left: 1000px;
+        background-color: transparent !important;
+        color :white !important;  
+    }
+
+    .btnticket {
+        position: absolute; 
+        top: 45%; 
+        left: 1160px; 
+    }
+
+    #footer-menu{
+        height: 90px;
+        background-color: rgb(30, 29, 83);
+        color: white;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-anchor: middle;
+    }    
